@@ -1,5 +1,6 @@
 __author__ = 'filadelfo'
 
+""" https://www.dropbox.com/developers/core/sdks/python """
 from dropbox.client import DropboxClient
 from ConfigParser import ConfigParser
 from os import path
@@ -96,7 +97,8 @@ if actions:
     file_to_be_removed = actions['REMOVE']
 
     logging.info(__INFOFILE__.format(cnt_add = str(len(file_to_be_added)), cnt_delete = str(len(file_to_be_removed))))
-
+    
+    """ Is there any faster way to get multiple files from the FTP Server? """
     for f in file_to_be_added:
         try:
             fp = cStringIO.StringIO()
