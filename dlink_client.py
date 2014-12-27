@@ -1,5 +1,7 @@
 __author__ = 'filadelfo'
 
+""" Todo: Improve Exception Handling """
+
 """ https://www.dropbox.com/developers/core/sdks/python """
 from dropbox.client import DropboxClient
 from ConfigParser import ConfigParser
