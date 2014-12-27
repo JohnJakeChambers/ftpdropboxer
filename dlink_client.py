@@ -14,6 +14,9 @@ __DROPBOXSECTION_OPTION__ = ("DBoxSect","tkn","dir")
 
 __FORMATLOG__ = "%(asctime)-15s \%(message)s"
 
+"""
+Match files that start with prefix
+"""
 __FILEPATTERNMATCH__ = "DCS"
 
 __STARTMSG__ = "Start.."
